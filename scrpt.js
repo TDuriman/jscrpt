@@ -9,9 +9,9 @@
 //.3d
 
 "Total cost: $" +
-  (5 + 3)//.3e //output = $8
-
-  `Total cost: $${5 + 3}`; //output = $8
+  (5 +
+    3) //.3e
+  `Total cost: $${5 + 3}`;
 
 //.3f
 
@@ -20,8 +20,7 @@ alert(`Total cost: $${5 + 3}`);
 //.3g  Concatenation
 
 "Total cost: $" + (599 + 295) / 100;
-"Total cost: $8.94"//.3h Interpolation
-
+"Total cost: $8.94" //.3h Interpolation
 `Total cost: $${(599 + 295) / 100}`;
 ("Total cost: $8.94");
 
