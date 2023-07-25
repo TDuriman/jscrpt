@@ -32,3 +32,16 @@ alert(`Total cost: $${(599 + 295) / 100}`);
 
 alert(`Total cost: $${(599 + 295) / 100}
 Thank you, come again!`);
+
+//.3k
+`Items (${2 + 2}): $${(2095 * 2 + 799 * 2) / 100}`;
+
+//.3l
+
+`Shipping & handling: $${(499 + 499) / 100}`//.3m
+
+`Total before tax: $${(2095 * 2 + 799 * 2 + 499 * 2) / 100}`//.3n
+
+`Estimated tax(${0.1 * 100}): $${
+  Math.round((2095 * 2 + 799 * 2 + 499 * 2) * 0.1) / 100
+}`;
