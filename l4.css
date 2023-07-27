@@ -1,0 +1,20 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.atc {
+  background-color: yellow;
+  border: 1px solid black;
+  color: black;
+  font-size: 17px;
+  height: 25px;
+  cursor: pointer;
+}
+.bn {
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  font-size: 17px;
+  height: 25px;
+  cursor: pointer;
+}
